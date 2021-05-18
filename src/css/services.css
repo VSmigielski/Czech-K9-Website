@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #191919;
+    --branding-color: #FEFC8F;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+.image-cropper {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.services-container img {
+    display: inline;
+    height: 100%;
+    width: auto;
+  }
+
+  @media (max-width: 1000px) {
+    .image-cropper {
+        width: 250px;
+        height: 250px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+  }
