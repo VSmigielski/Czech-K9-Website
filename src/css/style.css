@@ -207,3 +207,12 @@ body .hero-image {
 
     
 }
+
+@media (max-width: 768px) {
+    .nav-picture {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
