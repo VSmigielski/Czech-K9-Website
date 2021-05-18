@@ -40,3 +40,18 @@
             </ul>
         </div>
     </nav>
+
+
+<div id="slideshow">
+                <div id="slideshowWindow">
+                    <div class="slide">
+                        <img src="src/images/training.jpeg" /> 
+                    </div>
+                    <div class="slide">
+                        <img src="src/images/photography.jpeg" /> 
+                    </div>
+                    <div class="slide">
+                        <img src="src/images/transportation.jpeg" /> 
+                    </div>
+                </div>
+            </div>
