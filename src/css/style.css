@@ -25,6 +25,26 @@ p {
     font-weight: normal;
 }
 
+.navbar-custom .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: var(--branding-color);
+    background-color: #212529;
+}
+
+.navbar-custom .dropdown-item {
+    color: white;
+}
+
+.navbar-custom .dropdown-item:hover,
+.navbar-custom .dropdown-item:focus {
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+}
+
 body .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: url('../images/homepage-1.jpeg');
@@ -164,6 +184,10 @@ body .hero-image {
 
 .active, .dot:hover {
   background-color: #717171;
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+    color: var(--branding-color);
 }
 
 

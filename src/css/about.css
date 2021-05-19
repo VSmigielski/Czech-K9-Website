@@ -1,0 +1,63 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #191919;
+    --branding-color: #FEFC8F;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+.about-container {
+    background-color: var(--branding-color);
+}
+
+.about-container p {
+    color: var(--primary-color);
+}
+
+.about-container h2 {
+    font-size: 44px;
+}
+
+.about-container img {
+    max-width: 275px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.email-link {
+    color: var(--primary-color);
+}
+
+.first-column {
+    margin-top: 20px;
+}
+
+.inner-container {
+    width: 65%;
+}
+
+.row-margin {
+    margin-top: 50px;
+}
+
+.why-us-container {
+    width: 65%;
+}
+
+.why-us-container h1 {
+    font-size: 44px;
+}
+
+@media (max-width: 1000px) {
+    .first-column {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    .row-margin {
+        margin-top: 0px;
+    }
+}
