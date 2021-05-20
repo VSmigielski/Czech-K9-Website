@@ -42,7 +42,7 @@ p {
 .navbar-custom .dropdown-item:hover,
 .navbar-custom .dropdown-item:focus {
     color: var(--branding-color);
-    background-color: var(--secondary-color);
+    background-color: #212529;
 }
 
 body .hero-image {
