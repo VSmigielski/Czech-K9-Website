@@ -25,6 +25,14 @@ p {
     font-weight: normal;
 }
 
+.hero-text h4:first-letter {
+    float: left;
+    font-size: 60px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+}
+
 .navbar-custom .navbar-nav .nav-link {
     color: white;
 }
