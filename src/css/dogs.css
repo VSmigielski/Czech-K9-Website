@@ -1,0 +1,15 @@
+.dog-container {
+    width: 70%;
+}
+
+.dog-container h2 {
+    font-size: 40px;
+}
+
+.dog-container img {
+    border-radius: 15px;
+}
+
+.dog-container h1 {
+    font-size: 44px;
+}
