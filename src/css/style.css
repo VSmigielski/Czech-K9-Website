@@ -25,6 +25,10 @@ p {
     font-weight: normal;
 }
 
+.hero-text h4 {
+    font-weight: normal;
+}
+
 .hero-text h4:first-letter {
     float: left;
     font-size: 60px;
