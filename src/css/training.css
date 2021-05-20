@@ -1,0 +1,68 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #191919;
+    --branding-color: #FEFC8F;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+.first-training-cont {
+    background-color: var(--branding-color);
+}
+
+.first-container {
+    margin-bottom: 100px;
+    color: black;
+    width: 50%;
+}
+
+.first-container h3 {
+    font-size: 30px;
+}
+
+.behavior-container {
+    width: 70%;
+}
+
+ul, li {
+    color: white;
+}
+
+ul {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.protection-container {
+    background-color: var(--branding-color);
+}
+
+.image-cropper {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.protection-container img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.background-container {
+    width: 60%;
+}
+
+.background-container h3 {
+    font-size: 36px;
+}
+
+.background-container p {
+    font-size: 20px;
+    color: white;
+}
