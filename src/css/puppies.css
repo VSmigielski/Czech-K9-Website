@@ -1,0 +1,111 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #191919;
+    --branding-color: #FEFC8F;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+body .hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url('../images/cute-puppies.jpg');
+  
+    /* Set a specific height */
+    height: 70%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.puppies-container img {
+    display: block;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30%;
+}
+
+.top-container {
+    margin-bottom: 100px;
+    width: 65%;
+}
+
+.top-container h2 {
+    font-size: 44px;
+}
+
+.next-shipment-container {
+    background-color: var(--secondary-color);
+}
+
+.next-container {
+    width: 60%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.new-container h2 {
+    margin: 30px auto;
+    font-family: var(--default-font-family);
+}
+
+.new-container p {
+    margin: 30px auto;
+    color: white;
+}
+
+a:hover {
+    color: #FEFC8F;
+}
+
+.next-container h2 {
+    font-size: 40px;
+    line-height: 1.7;
+    font-weight: normal;
+    font-family: var(--default-font-family);
+}
+
+.new-container img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+}
+
+.another-container {
+    width: 60%;
+}
+
+.reservation-container {
+    width: 50%;
+    text-align: center;
+}
+
+.reservation-container h3 {
+    font-size: 36px;
+    color: white;
+    line-height: 1.7;
+}
+
+.reservation-container .contact-button {
+    background: rgb(235,235,116);
+    color: white;
+    padding: 10px;
+}
+
+@media (max-width: 1000px) {
+    .puppies-container img {
+        display: block;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30%;
+    }
+}
+

@@ -190,6 +190,9 @@ body .hero-image {
     color: var(--branding-color);
 }
 
+footer {
+    color: white;
+}
 
 /* Fading animation */
 .fade {

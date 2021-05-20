@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #191919;
+    --branding-color: #FEFC8F;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
+}
+
+.studio-container {
+    width: 75%;
+}
+
+.location-container {
+    background-color: var(--branding-color);
+    color: black;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 44px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 30px auto;
+}
