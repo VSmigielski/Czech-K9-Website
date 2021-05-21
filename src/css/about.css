@@ -38,10 +38,6 @@
     width: 65%;
 }
 
-.row-margin {
-    margin-top: 50px;
-}
-
 .why-us-container {
     width: 65%;
 }
@@ -56,8 +52,28 @@
     }
 }
 
-@media (max-width: 700px) {
-    .row-margin {
-        margin-top: 0px;
+@media (max-width: 600px) {
+    .inner-container {
+        width: 75%;
+    }
+
+    .about-container h2 {
+        font-size: 20px;
+    }
+
+    .about-container p {
+        font-size: 12px;
+    }
+
+    .why-us-container {
+        width: 75%;
+    }
+
+    .why-us-container p {
+        font-size: 12px;
+    }
+    
+    .why-us-container h1 {
+        font-size: 20px;
     }
 }

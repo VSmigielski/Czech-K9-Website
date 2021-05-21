@@ -257,9 +257,7 @@ footer {
         margin-right: auto;
         margin-left: auto;
     }
-}
 
-@media (max-width: 500px) {
     .hero-text h4:first-letter {
         float: none;
         font-size: 14px;
@@ -268,6 +266,13 @@ footer {
         margin-right: auto;
     }
 
+    .mission-container {
+        background-color: var(--primary-color);
+        width: 85%;
+    }
+}
+
+@media (max-width: 600px) {
     .hero-text h1 {
         font-size: 20px;
         color: white; 
@@ -289,5 +294,8 @@ footer {
         font-size: 20px;
     }
 
+    .victory-container {
+        padding: 20px;
+    }
 }
 
