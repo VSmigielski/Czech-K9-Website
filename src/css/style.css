@@ -259,3 +259,35 @@ footer {
     }
 }
 
+@media (max-width: 500px) {
+    .hero-text h4:first-letter {
+        float: none;
+        font-size: 14px;
+        line-height: 1;
+        font-weight: normal;
+        margin-right: auto;
+    }
+
+    .hero-text h1 {
+        font-size: 20px;
+        color: white; 
+    }
+    
+    .victory-container p {
+        font-size: 12px;
+    }
+    
+    .mission-container p {
+        font-size: 12px;
+    }
+    
+    .contact-container p {
+        font-size: 12px;
+    }
+    
+    .contact-container h2 {
+        font-size: 20px;
+    }
+
+}
+
