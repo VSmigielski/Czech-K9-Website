@@ -116,6 +116,10 @@ body .hero-image {
     width: 75%;
 }
 
+.mission-container p {
+    font-size: 22px;
+}
+
 .contact-container {
     background-color: var(--secondary-color);
 }
