@@ -21,7 +21,7 @@
 }
 
 .behavior-container {
-    width: 70%;
+    width: 50%;
 }
 
 ul, li {
@@ -65,4 +65,60 @@ ul {
 .background-container p {
     font-size: 20px;
     color: white;
+}
+
+@media (max-width: 769px) {
+    .behavior-container {
+        width: 70%;
+    }
+
+    .background-container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px) {
+    .first-container {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .first-container h3 {
+        font-size: 18px;
+    }
+
+    .first-container p {
+        font-size: 12px;
+    }
+
+    .image-cropper {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .behavior-container h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .behavior-container li {
+        font-size: 14px;
+    }
+
+    .background-container p {
+        font-size: 12px;
+    }
+
+    .background-container {
+        width: 80%;
+    }
+
+    .protection-container h3 {
+        font-size: 18px;
+    }
+
+    .background-container h3 {
+        font-size: 18px;
+    }
+
 }
