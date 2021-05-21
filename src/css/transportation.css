@@ -34,3 +34,21 @@ img {
     border-radius: 20px;
     margin-top: 20px;
 }
+
+@media (max-width: 600px) {
+    img {
+        min-width: 200px;
+    }
+
+    .img-container {
+        width: 90%;
+    }
+
+    .transport-container h1 {
+        font-size: 22px;
+    }
+
+    .transport-container p {
+        font-size: 12px;
+    }
+}
