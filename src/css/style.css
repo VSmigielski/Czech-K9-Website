@@ -206,6 +206,12 @@ body .hero-image {
     color: var(--branding-color);
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 footer {
     color: white;
 }
