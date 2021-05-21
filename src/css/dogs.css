@@ -13,3 +13,27 @@
 .dog-container h1 {
     font-size: 44px;
 }
+
+@media (max-width: 768px) {
+    .dog-container {
+        width: 80%;
+    }
+    
+    .dog-container h2 {
+        font-size: 20px;
+    }
+
+    .dog-container h1 {
+        font-size: 22px;
+    }
+
+    .dog-container p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .phone-margin {
+        margin-top: 20px;
+    }
+}
