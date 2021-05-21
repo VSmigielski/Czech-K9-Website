@@ -109,3 +109,98 @@ a:hover {
     }
 }
 
+@media (max-width: 768px) {
+    body .hero-image {
+      
+        /* Set a specific height */
+        height: 50%;
+    }
+
+    .next-container {
+        width: 85%;
+    }
+
+    .next-container h2 {
+        font-size: 30px;
+    }
+
+    .another-container {
+        width: 75%;
+    }
+    
+    .reservation-container {
+        width: 75%;
+    }
+}
+
+@media (max-width: 600px) {
+    body .hero-image {
+      
+        /* Set a specific height */
+        height: 30%;
+    }
+
+    .top-container {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .top-container h2 {
+        font-size: 20px;
+    }
+
+    .top-container h3 {
+        font-size: 18px;
+    }
+
+    .puppies-container img {
+        display: block;
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30%;
+    }
+
+    .puppies-container h1 {
+        line-height: 1.7;
+        font-size: 22px;
+    }
+
+    .puppies-container h3 {
+        font-size: 18px;
+    }
+
+    .new-container img {
+        max-width: 100%;
+    }
+
+    .next-container h2 {
+        font-size: 20px;
+    }
+
+    .new-container p {
+        font-size: 12px;
+    }
+
+    .next-container p {
+        font-size: 12px;
+    }
+
+    .next-container {
+        width: 90%;
+    }
+
+    .another-container p {
+        font-size: 12px;
+    }
+
+    .another-container {
+        width: 90%;
+    }
+    
+    .reservation-container h3 {
+        font-size: 18px;
+    }
+}
