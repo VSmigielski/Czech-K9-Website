@@ -8,6 +8,8 @@
 
 .dog-container img {
     border-radius: 15px;
+    max-height: 90%;
+    max-width: 100%;
 }
 
 .dog-container h1 {
