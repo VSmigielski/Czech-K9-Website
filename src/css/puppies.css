@@ -181,11 +181,11 @@ a:hover {
     }
 
     .new-container p {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .next-container p {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .next-container {
@@ -193,7 +193,7 @@ a:hover {
     }
 
     .another-container p {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .another-container {

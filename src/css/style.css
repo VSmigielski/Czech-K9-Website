@@ -245,7 +245,7 @@ footer {
     }
     
     .hero-text h4 {
-        font-size: 14px;
+        font-size: 16px;
     }
       
       /* Place text in the middle of the image */
@@ -266,7 +266,7 @@ footer {
 
     .hero-text h4:first-letter {
         float: none;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1;
         font-weight: normal;
         margin-right: auto;
@@ -285,15 +285,15 @@ footer {
     }
     
     .victory-container p {
-        font-size: 12px;
+        font-size: 16px;
     }
     
     .mission-container p {
-        font-size: 12px;
+        font-size: 16px;
     }
     
     .contact-container p {
-        font-size: 12px;
+        font-size: 16px;
     }
     
     .contact-container h2 {
